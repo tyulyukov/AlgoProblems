@@ -1,8 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Numerics;
-
 var s = new Solution();
+Console.WriteLine(
+    s.AddTwoNumbers(
+        new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))),
+        new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))))))))
+);
 Console.WriteLine(
     s.AddTwoNumbers(
         new ListNode(2, new ListNode(4, new ListNode(3))),
@@ -22,7 +25,44 @@ Console.WriteLine(
 public class Solution {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
-        return null;
+        var sum = new ListNode();
+        var sumHead = sum;
+        var carry = 0;
+        
+        while (true)
+        {
+            sum.val = carry;
+            
+            if (l1 is null && l2 is null)
+                break;
+
+            if (l1 is not null)
+                sum.val += l1.val;
+
+            if (l2 is not null)
+                sum.val += l2.val;
+            
+            carry = 0;
+
+            while (sum.val > 9)
+            {
+                sum.val -= 10;
+                carry++;
+            }
+
+            if (l1?.next is not null || l2?.next is not null || carry != 0)
+            {
+                var next = new ListNode();
+                sum.next = next;
+                sum = next;
+            }
+            else break;
+            
+            l1 = l1?.next;
+            l2 = l2?.next;
+        }
+
+        return sumHead;
     }
     
     /*public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
