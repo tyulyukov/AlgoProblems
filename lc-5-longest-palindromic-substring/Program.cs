@@ -4,33 +4,28 @@ var s = new Solution();
 Console.WriteLine(s.LongestPalindrome("babad"));
 Console.WriteLine(s.LongestPalindrome("a"));
 Console.WriteLine(s.LongestPalindrome("ac"));
+Console.WriteLine(s.LongestPalindrome("abcdadsfaABABA"));
 
 public class Solution {
     public string LongestPalindrome(string s)
     {
-        var span = s.AsSpan();
+        var longest = ReadOnlySpan<char>.Empty;
 
-        if (span.Length is 0 or 1)
-            return s;
-        
-        var longest = string.Empty;
-
-        for (int i = 0; i < span.Length; i++)
+        for (int i = 0; i < s.Length; i++)
         {
-            for (int j = i + 1; j < span.Length - 1; j++)
+            for (int j = 1; j <= s.Length - i; j++)
             {
-                var substring = s.Substring(i, j);
+                var substring = j == s.Length - i ? s.AsSpan(i) : s.AsSpan(i, j);
+                
                 if (IsPalindrome(substring) && longest.Length < substring.Length)
                     longest = substring;
             }
         }
 
-        return longest;
+        return longest.ToString();
     }
 
-    // private ReadOnlySpan<char> Substring(ReadOnlySpan<char >)
-
-    private bool IsPalindrome(string s)
+    private bool IsPalindrome(ReadOnlySpan<char> s)
     {
         for (int i = 0; i < s.Length; i++)
         {

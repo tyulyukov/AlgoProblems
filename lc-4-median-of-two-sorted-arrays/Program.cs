@@ -9,15 +9,15 @@ public class Solution {
     {
         var mergedLength = nums1.Length + nums2.Length;
 
-        int i = 0, j = 0;
+        int i = 0, j = 0, k = 0;
         
         var center = mergedLength / 2;
         int prevNum = 0, addedNum = 0;
 
-        for (int k = 0; k <= center; k++)
+        for (; k <= center && i < nums1.Length && j < nums2.Length; k++)
         {
             prevNum = addedNum;
-            if ((i < nums1.Length && j < nums2.Length && nums1[i] < nums2[j]) || (i < nums1.Length && j >= nums2.Length))
+            if (nums1[i] < nums2[j])
             {
                 addedNum = nums1[i];
                 i++;
@@ -27,6 +27,20 @@ public class Solution {
                 addedNum = nums2[j];
                 j++;
             }
+        }
+
+        for (; k <= center && i < nums1.Length; k++)
+        {
+            prevNum = addedNum;
+            addedNum = nums1[i];
+            i++;
+        }
+
+        for (; k <= center && j < nums2.Length; k++)
+        {
+            prevNum = addedNum;
+            addedNum = nums2[j];
+            j++;
         }
         
         GC.Collect();
