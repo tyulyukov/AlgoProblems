@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-88-merge-sorted-array", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-27-remove-element", "lc-27-remove-element\lc-27-remove-element.csproj", "{419A2BC7-4EF3-4AC9-9CE1-6E40121114E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-20-valid-parentheses", "lc-20-valid-parentheses\lc-20-valid-parentheses.csproj", "{B4E508D1-D5A9-499F-B0CC-88A8DDEF082A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{419A2BC7-4EF3-4AC9-9CE1-6E40121114E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{419A2BC7-4EF3-4AC9-9CE1-6E40121114E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{419A2BC7-4EF3-4AC9-9CE1-6E40121114E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E508D1-D5A9-499F-B0CC-88A8DDEF082A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E508D1-D5A9-499F-B0CC-88A8DDEF082A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E508D1-D5A9-499F-B0CC-88A8DDEF082A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E508D1-D5A9-499F-B0CC-88A8DDEF082A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
