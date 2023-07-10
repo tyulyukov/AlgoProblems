@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-27-remove-element", "lc-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-20-valid-parentheses", "lc-20-valid-parentheses\lc-20-valid-parentheses.csproj", "{B4E508D1-D5A9-499F-B0CC-88A8DDEF082A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-121-best-time-to-buy-and-sell-stock", "lc-121-best-time-to-buy-and-sell-stock\lc-121-best-time-to-buy-and-sell-stock.csproj", "{3803167B-5990-45DA-911D-B8319D17B862}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B4E508D1-D5A9-499F-B0CC-88A8DDEF082A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E508D1-D5A9-499F-B0CC-88A8DDEF082A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E508D1-D5A9-499F-B0CC-88A8DDEF082A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3803167B-5990-45DA-911D-B8319D17B862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3803167B-5990-45DA-911D-B8319D17B862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3803167B-5990-45DA-911D-B8319D17B862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3803167B-5990-45DA-911D-B8319D17B862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
