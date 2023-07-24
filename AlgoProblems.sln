@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-121-best-time-to-buy-and
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-217-contains-duplicate", "lc-217-contains-duplicate\lc-217-contains-duplicate.csproj", "{C98F882F-725D-4F07-AFF5-A0542334166B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-15-3sum", "lc-15-3sum\lc-15-3sum.csproj", "{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,5 +108,9 @@ Global
 		{C98F882F-725D-4F07-AFF5-A0542334166B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C98F882F-725D-4F07-AFF5-A0542334166B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C98F882F-725D-4F07-AFF5-A0542334166B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
