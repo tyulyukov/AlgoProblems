@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-217-contains-duplicate",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-15-3sum", "lc-15-3sum\lc-15-3sum.csproj", "{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-50-pow", "lc-50-pow\lc-50-pow.csproj", "{1FCEA0BD-442C-4954-8FF4-22E198D327B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -112,5 +114,9 @@ Global
 		{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCEA0BD-442C-4954-8FF4-22E198D327B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCEA0BD-442C-4954-8FF4-22E198D327B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCEA0BD-442C-4954-8FF4-22E198D327B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCEA0BD-442C-4954-8FF4-22E198D327B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
