@@ -1,5 +1,5 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-13-roman-to-integer", "lc-13-roman-to-integer\lc-13-roman-to-integer.csproj", "{430ABC4D-3977-4642-93FC-70EC3C20C97E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-412-fizz-buzz", "lc-412-fizz-buzz\lc-412-fizz-buzz.csproj", "{2443309B-3B73-490A-8C7E-FE45ED2EAE21}"
@@ -43,6 +43,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-15-3sum", "lc-15-3sum\lc-15-3sum.csproj", "{8AE039A3-A7BC-475B-939A-C0EBBCB2B4D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-50-pow", "lc-50-pow\lc-50-pow.csproj", "{1FCEA0BD-442C-4954-8FF4-22E198D327B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-9-palindrome-number", "lc-9-palindrome-number\lc-9-palindrome-number.csproj", "{DD3302AC-A02D-4208-A629-7DB35448B488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectGenerator", "ProjectGenerator\ProjectGenerator.csproj", "{DDFF3E70-04DC-44EE-A146-2A8B8396CD3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lc-125-valid-palindrome", "lc-125-valid-palindrome\lc-125-valid-palindrome.csproj", "{E996E805-93E1-4010-8539-07B518DC95C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -118,5 +124,17 @@ Global
 		{1FCEA0BD-442C-4954-8FF4-22E198D327B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FCEA0BD-442C-4954-8FF4-22E198D327B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FCEA0BD-442C-4954-8FF4-22E198D327B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3302AC-A02D-4208-A629-7DB35448B488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3302AC-A02D-4208-A629-7DB35448B488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3302AC-A02D-4208-A629-7DB35448B488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3302AC-A02D-4208-A629-7DB35448B488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFF3E70-04DC-44EE-A146-2A8B8396CD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFF3E70-04DC-44EE-A146-2A8B8396CD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFF3E70-04DC-44EE-A146-2A8B8396CD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFF3E70-04DC-44EE-A146-2A8B8396CD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E996E805-93E1-4010-8539-07B518DC95C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E996E805-93E1-4010-8539-07B518DC95C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E996E805-93E1-4010-8539-07B518DC95C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E996E805-93E1-4010-8539-07B518DC95C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
